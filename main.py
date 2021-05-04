@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-import seaborn as sns
 
 st.write("""
     # GCR Facilitator Student Progress Report:
