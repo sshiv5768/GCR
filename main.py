@@ -12,4 +12,4 @@ if tickerSymbol:
     df = df[df['Student Name'] == tickerSymbol]
     st.write(df)
 else:
-    st.write('Data does not exits')
+    st.write('')
