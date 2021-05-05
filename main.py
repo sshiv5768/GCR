@@ -4,7 +4,7 @@ import pandas as pd
 st.write("""
     # GCR Facilitator Student Progress Report:
 """)
-df = pd.read_csv('Progress.csv')
+df = pd.read_csv('PRogress.csv')
 tickerSymbol = st.text_input("Enter Your Name: ")
 st.write('Your Progress Report: ', tickerSymbol)
 
